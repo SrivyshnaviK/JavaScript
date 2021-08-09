@@ -1,0 +1,34 @@
+foodItems = '[
+    {
+        "name": "Chicken Biryani",
+        "price": "120"
+    },
+    {
+        "name": "Mutton Biryani",
+        "price": "150"
+    },
+    {
+        "name": "Chicken Lollipop",
+        "price": "200"
+    },
+    {
+        "name": "Mutton Kheema",
+        "price": "300"
+    },
+    {
+        "name": "Cheese Pizza",
+        "price": "80"
+    },
+    {
+        "name": "Panner Pizza",
+        "price": "100"
+    },
+    {
+        "name": "Veg Fried Rice",
+        "price": "60"
+    },
+    {
+        "name": "Veg Manchuria",
+        "price": "70"
+    }
+];

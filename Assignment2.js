@@ -1,0 +1,25 @@
+function getData(uId) {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      console.log("Fetched the data!");
+      resolve("skc@gmail.com");
+      //return "skc@gmail.com";
+    }, 4000);
+  });
+}
+async function print() {
+  console.log("start");
+  console.log("print before wait")
+  var email = await getData("skc");
+  console.log("print after wait")
+  console.log("Email id of the user id is: " + email);
+  console.log("end");
+}
+print()
+//  getData("skc").then((email)=>{
+//   console.log("start");
+//   console.log("print before wait")
+//   console.log("print after wait")
+//   console.log("Email id of the user id is: " + email);
+//   console.log("end");
+// })
